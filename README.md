@@ -2,7 +2,7 @@
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-Official [PyTorch](https://pytorch.org/) implementation of ECCV 2022 paper: [**EleGANt: Exquisite and Locally Editable GAN for Makeup Transfer**]
+Official [PyTorch](https://pytorch.org/) implementation of ECCV 2022 paper "[EleGANt: Exquisite and Locally Editable GAN for Makeup Transfer](https://arxiv.org/abs/2207.09840)"
 
 *Chenyu Yang, Wanrong He, Yingqing Xu, and Yang Gao*.
 
@@ -20,6 +20,8 @@ To test our model, download the [weights](https://drive.google.com/drive/folders
 ```bash
 python scripts/demo.py
 ```
+
+Examples of makeup transfer results can be seen [here](assets/images/examples/).
 
 ## Train
 
@@ -41,7 +43,16 @@ python scripts/train.py
 
 ## Citation
 
-Coming soon.
+If this work is helpful for your research, please consider citing the following BibTeX entry.
+
+```text
+@article{yang2022elegant,
+  title={EleGANt: Exquisite and Locally Editable GAN for Makeup Transfer},
+  author={Yang, Chenyu and He, Wanrong and Xu, Yingqing and Gao, Yang}
+  journal={arXiv preprint arXiv:2207.09840},
+  year={2022}
+}
+```
 
 ## Acknowledgement
 
