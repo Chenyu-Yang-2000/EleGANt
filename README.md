@@ -31,7 +31,11 @@ To train a model from scratch, run
 python scripts/train.py
 ```
 
-## More Results
+## Customized Transfer
+
+https://user-images.githubusercontent.com/61506577/180593092-ccadddff-76be-4b7b-921e-0d3b4cc27d9b.mp4
+
+This is our demo of customized makeup editing. The interactive system is built upon [Streamlit](https://github.com/streamlit/streamlit) and the interface in `./training/inference.py`.
 
 **Controllable makeup transfer.**
 
